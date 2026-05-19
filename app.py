@@ -1,5 +1,5 @@
 def classify_text(text):
-    positive_words = ["good", "great", "happy", "excellent", "awesome", "love"]
+    positive_words = ["good", "great", "happy", "excellent",]
     negative_words = ["bad", "sad", "poor", "angry", "hate", "worst"]
     text = text.lower()
 
