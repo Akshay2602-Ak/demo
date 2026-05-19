@@ -1,6 +1,6 @@
 def classify_text(text):
-    positive_words = ["good", "great", "happy", "excellent","Nala iruku"]
-    negative_words = ["bad", "sad", "poor", "angry", "hate", "worst","waste"]
+    positive_words = ["good", "great", "happy", "excellent","Nala iruku","super"]
+    negative_words = ["bad", "sad", "poor", "angry", "hate", "worst","waste","nalla illa"]
     text = text.lower()
 
     if any(word in text for word in positive_words):
