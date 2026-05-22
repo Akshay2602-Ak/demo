@@ -1,6 +1,7 @@
 def classify_text(text):
-    positive_words = ["good", "great", "happy", "excellent","Nala iruku","super"]
-    negative_words = ["bad", "sad", "poor", "angry", "hate", "worst","waste","nalla illa","ussu(vikash)marri iruku"]
+    positive_words = ["good", "great", "happy", "excellent", "awesome"]
+    negative_words = ["bad", "sad", "poor", "angry", "worst"]
+
     text = text.lower()
 
     if any(word in text for word in positive_words):
@@ -11,8 +12,4 @@ def classify_text(text):
         return "Neutral"
 
 
-user_text = input("Enter your text: ")
-result = classify_text(user_text)
-print("AI Prediction:", result)
-
- 
+print(classify_text("This is awesome"))
