@@ -15,3 +15,4 @@ user_text = input("Enter your text: ")
 result = classify_text(user_text)
 print("AI Prediction:", result)
 
+ 
